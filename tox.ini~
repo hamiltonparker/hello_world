@@ -1,0 +1,8 @@
+[tox]
+envlist = py27
+skipdist = True
+[testenv]
+deps=
+    pytest
+commands=
+    coverage run --source=Learning -m pytest
