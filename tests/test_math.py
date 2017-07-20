@@ -3,7 +3,7 @@
 
 import pytest
 
-def test_square:
+def test_square():
     """Tests the squaring function"""
     from demo.math import square
 
