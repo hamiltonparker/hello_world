@@ -8,4 +8,4 @@ def square(x):
         x2 (float): The squared number 
     """
 
-    return x**2
+    return x**2.5
