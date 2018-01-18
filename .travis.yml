@@ -5,10 +5,13 @@ python:
     - "3.5"
 #command to install depedancies
 install:
-    - pip install --upgrade -r requirements.txt
-    - pip install --upgrade .
-    - pip install --upgrade tox-travis
     - pip install -r requirements.txt
+    - pip install .
+    - pip install tox-travis
+    - pip install coverage
+    - pip install codecov
 # command to run tests
-script: tox
-after_success: coveralls
+script:
+    - tox
+after_success:
+    - codecov

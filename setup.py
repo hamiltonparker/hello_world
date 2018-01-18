@@ -27,7 +27,7 @@ setup(name='demo',
     url='https://github.com/hamiltonparker/hello_world',
     license='MIT',
     setup_requires=['pytest-runner',],
-    tests_require=['pytest', 'python-coveralls'],
+    tests_require=['pytest', 'python-coverage'],
     install_requires=[
         "numpy",
     ],
